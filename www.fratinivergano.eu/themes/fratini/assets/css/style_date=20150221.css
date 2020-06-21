@@ -642,6 +642,9 @@ footer .copyright {
   .navbar{
     border-top:1px solid #EAEAEA;
   }
+  .navbar-nav>li>a{
+      font-size:13px;
+  }
 }
 
 @media screen and (min-width:992px) and (max-width:1199px){
@@ -650,3 +653,34 @@ footer .copyright {
   }
 }
 
+container{
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto
+}
+  
+@media (min-width:768px){
+  .container{
+    width:auto
+  }
+}
+
+@media (min-width:992px){
+  .container{
+    width:970px
+  }
+}
+
+@media (min-width:1200px){
+  .container{
+    width:1170px
+  }
+}
+
+.container-fluid{
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto
+}
